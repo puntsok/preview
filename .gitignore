@@ -1,0 +1,13 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+
+.idea
+
+# Remove .htaccess file since production server needs different
+/public/.htaccess
+
+# Remove database configuration
+app/config/database.php
